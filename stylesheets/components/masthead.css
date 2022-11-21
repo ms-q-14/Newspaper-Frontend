@@ -1,0 +1,101 @@
+/* Your code here */
+.masthead {
+  display: grid;
+  grid-template-columns: repeat (3, auto);
+  grid-template-rows: repeat (3, auto);
+  grid-template-areas:
+    "search . action"
+    ". tech ."
+    "date logo paper";
+}
+
+.masthead__menu-search {
+  grid-area: search;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 11px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.bars:hover {
+  transform: scale(2);
+}
+
+.search:hover {
+  transform: scale(2);
+}
+
+.masthead__actions {
+  grid-area: action;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 11px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  gap: 10px;
+}
+
+.cog:hover {
+  transform: scale(1.5);
+}
+
+.sub_button:hover {
+  transform: scale(1.1);
+}
+
+.login_button:hover {
+  transform: scale(1.1);
+}
+
+.masthead__technologies {
+  grid-area: tech;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #6f6f6f;
+}
+
+.masthead__date {
+  grid-area: date;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  gap: 10px;
+}
+
+.masthead__logo {
+  grid-area: logo;
+  transform: scale(0.73);
+  border-bottom: 1px;
+  border-color: #e2e2e2;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.masthead__paper {
+  grid-area: paper;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  gap: 10px;
+}
