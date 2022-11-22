@@ -1,1 +1,14 @@
 /* Your code here */
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: fantasy;
+  color: #265e8b;
+}
