@@ -127,6 +127,7 @@
   padding-bottom: 15px;
   padding-left: 15px;
   padding-top: 35px;
+  padding-right: 15px;
 }
 
 #article4_topic {
@@ -186,4 +187,40 @@
 #mini_topic {
   font-weight: bold;
   border-bottom: 1px solid #e2e2e2;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_body {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title title"
+      "article video"
+      "sub1 sub2"
+      "sub4 sub3"
+      "mini1 mini2"
+      "mini3 mini4"
+      "mini5 mini6";
+  }
+  .main_body__video {
+    border-right: none;
+  }
+
+  .sub_article_2 {
+    border-right: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main_body__title {
+    border-top: 2px solid black;
+  }
+
+  .main_body__video {
+    border-right: none;
+  }
+
+  .sub_article_2 {
+    border-right: none;
+  }
 }

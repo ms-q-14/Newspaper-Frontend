@@ -120,3 +120,9 @@
   height: 47px;
   width: 47px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .interests {
+    display: none;
+  }
+}
