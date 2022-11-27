@@ -21,13 +21,21 @@
   padding-bottom: 7px;
 }
 
+.bars {
+  transform: scale(1.2);
+}
+
 .bars:hover {
-  transform: scale(2);
   cursor: pointer;
 }
 
+.search {
+  position: relative;
+  transform: scale(1.2);
+  padding-left: 8px;
+}
+
 .search:hover {
-  transform: scale(2);
   cursor: pointer;
 }
 
@@ -46,6 +54,7 @@
 
 .cog {
   position: relative;
+  transform: scale(1.2);
 }
 .cog:hover {
   cursor: pointer;

@@ -9,6 +9,7 @@
     <title>Mohammad Times</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
     <link rel="stylesheet" href="./stylesheets/main-styles.css">
+    <script src="./scripts/event-handling.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,8 +18,13 @@
                 <div class="bars">
                     <i class="fa fa-bars"></i>
                 </div>
-                <div class="search">
-                    <i class="fa fa-search"></i>
+                <div class="search" >
+                    <i class="fa fa-search" >
+                        <div class="search-modal" >
+                            <input type="search" class="search-modal__input" placeholder="Search">
+                            <button class="search-model__go">Go</button>
+                        </div>
+                    </i>
                 </div>
             </div>
             <div class="masthead__actions">

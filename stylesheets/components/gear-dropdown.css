@@ -19,6 +19,7 @@
 
 .pref__section:first-child {
   border-top: none;
+  font-weight: normal;
 }
 
 .pref__section-header {
@@ -33,12 +34,16 @@
   text-transform: uppercase;
 }
 
+.pref__section-link {
+  font-weight: normal;
+}
+
 .pref__section-link:hover {
   background-color: #dedede;
 }
 
 .cog:focus .pref {
-  display: inline;
+  display: block;
   position: absolute;
   overflow: hidden;
   float: none;
