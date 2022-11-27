@@ -1,5 +1,3 @@
-@import url(../components/masthead.css);
-
 .pref {
   background-color: white;
   border: 1px solid #efefef;
@@ -39,6 +37,9 @@
   background-color: #dedede;
 }
 
-.cog:focus + .pref {
-  display: block;
+.cog:focus .pref {
+  display: inline;
+  position: absolute;
+  overflow: hidden;
+  float: none;
 }

@@ -44,8 +44,10 @@
   gap: 10px;
 }
 
+.cog {
+  position: relative;
+}
 .cog:hover {
-  transform: scale(1.5);
   cursor: pointer;
 }
 
