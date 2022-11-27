@@ -1,6 +1,6 @@
 .search-modal {
-  margin-left: 10px;
-  display: inline-flex;
+  margin-left: 20px;
+  display: none;
 }
 
 .search-modal__input {
@@ -10,5 +10,5 @@
 }
 
 .search-modal--hidden {
-  display: none;
+  display: inline-flex;
 }

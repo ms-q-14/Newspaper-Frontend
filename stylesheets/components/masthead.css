@@ -23,6 +23,7 @@
 
 .bars {
   transform: scale(1.2);
+  padding-right: 10px;
 }
 
 .bars:hover {
